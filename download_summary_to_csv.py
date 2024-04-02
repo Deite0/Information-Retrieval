@@ -11,7 +11,7 @@ wiki_wiki = wikipediaapi.Wikipedia(
     user_agent=user_agent
 )
 
-def save_details_to_csv(categorymembers, csv_writer, level=0, max_level=2, limit=100):
+def save_details_to_csv(categorymembers, csv_writer, level=0, max_level=2, limit=50):
     count = 0
     for c in categorymembers.values():
         if count >= limit:
@@ -30,10 +30,42 @@ output_dir = 'wikipedia_details'
 os.makedirs(output_dir, exist_ok=True)
 
 # CSV file to store the details
-csv_filename = os.path.join(output_dir, '/Users/laasya/Desktop/GitHub/Computer-Science---Information-Retrieval/computer_science_wiki.csv')
+csv_filename = os.path.join(output_dir, '/Users/laasya/Desktop/GitHub/Computer-Science---Information-Retrieval/WikiData.csv')
 
 # List of computer science related categories to start from
-categories = ["Computer_science", "Programming_languages", "Algorithms", "Data_structures"]
+# categories = ["","Computer_science", "Programming_languages", "Algorithms", "Data_structures"]
+
+categories = [
+    "Data_science", 
+    "Machine_learning", 
+    "Data_mining", 
+    "Artificial_neural_networks", 
+    "Big_data", 
+    "Statistical_classification", 
+    "Clustering_algorithms", 
+    "Regression_analysis",
+    "Data_visualization",
+    "Business_intelligence",
+    "Predictive_analytics",
+    "Time_series_analysis",
+    "Natural_language_processing",
+    "Deep_learning",
+    "Data_cleaning",
+    "Data_transformation",
+    "Dimensionality_reduction",
+    "Feature_engineering",
+    "Neural_networks",
+    "Decision_trees",
+    "Ensemble_learning",
+    "Computer_vision", 
+    "Pattern_recognition", 
+    "Reinforcement_learning", 
+    "Supervised_learning", 
+    "Unsupervised_learning",
+    "Algorithms", 
+    "Data_structures"
+    # Add or remove categories as needed
+]
 
 # Write to CSV
 with open(csv_filename, mode='w', newline='', encoding='utf-8') as file:
