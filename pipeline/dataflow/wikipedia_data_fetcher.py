@@ -54,7 +54,7 @@ class WikipediaDataFetcher:
 user_agent = 'LakshmiPriyaRamisetty/1.0 (https://medium.com/@lakshmi_priya_ramisetty)'
 fetcher = WikipediaDataFetcher(
     user_agent=user_agent,
-    category_file='dataflow/categories.csv',
-    output_file='dataflow/WikiData.csv'
+    category_file='pipeline/dataflow/categories.csv',
+    output_file='pipeline/dataflow/WikiData2.csv'
 )
 fetcher.run()

@@ -10,7 +10,7 @@ topic_name = "add-category"
 
 topic_path = publisher.topic_path(project_id, topic_name)
 
-data = u'{"category_name":"Data science "}'
+data = u'{"category_name":"Operating_systems "}'
 
 # Data must be a bytestring
 data = data.encode("utf-8")

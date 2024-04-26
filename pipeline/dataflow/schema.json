@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Category",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "The category under which the page is classified."
+    },
+    {
+        "name": "Topic",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "The title of the Wikipedia page."
+    },
+    {
+        "name": "Summary",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "A brief summary of the Wikipedia page."
+    },
+    {
+        "name": "Full_Content",
+        "type": "STRING",
+        "mode": "NULLABLE",
+        "description": "The full text content of the Wikipedia page."
+    },
+    {
+        "name": "Page_ID",
+        "type": "INTEGER",
+        "mode": "REQUIRED",
+        "description": "The unique identifier for the Wikipedia page."
+    },
+    {
+        "name": "URL",
+        "type": "STRING",
+        "mode": "REQUIRED",
+        "description": "The URL of the Wikipedia page."
+    }
+]
