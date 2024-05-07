@@ -2,7 +2,7 @@
 ```cd model```
 
 ## Set credential:
-```export GOOGLE_APPLICATION_CREDENTIALS=analog-button-421413-e0072d12a2ba.json```
+```export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service/account```
 
 ## Launch the CLI on our trained model
 ```python launch.py --checkpoint dangvohiep/wikit5```
