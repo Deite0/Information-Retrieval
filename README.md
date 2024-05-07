@@ -1,7 +1,7 @@
 # From Query to Information: An Advanced Information Retrieval System Trained on Wikipedia
 
 ## Overview
-**From Query to Information** is an advanced information retrieval system designed to deliver accurate and comprehensive results using Wikipedia as the primary data source. The system leverages state-of-the-art machine learning models and natural language processing techniques to return precise information for various types of queries.
+We have developed an advanced information retrieval system designed to deliver accurate and comprehensive results using Wikipedia as the primary data source. The system leverages state-of-the-art machine learning models and natural language processing techniques to return precise information for various types of queries.
 
 For more detailed information about the system's design and implementation, refer to our paper [here](report/An_Advanced_Information_Retrieval_System_Trained_on_Wikipedia.pdf).
 
