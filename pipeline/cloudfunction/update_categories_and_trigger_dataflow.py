@@ -17,7 +17,7 @@ def update_categories_and_trigger_dataflow(data, context):
     print("------ Initialising GCS Client ------")
     storage_client = storage.Client()
     bucket_name = 'ir-datastore'
-    file_name = 'categories.csv'
+    file_name = 'unprocessed_categories.csv'
     bucket = storage_client.get_bucket(bucket_name)
     blob = bucket.blob(file_name)
 
