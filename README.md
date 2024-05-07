@@ -11,11 +11,11 @@ For more detailed information about the system's design and implementation, refe
 - **Scalability:** Works well across a wide range of data sizes.
 
 ### Data Pipeline
-![Data Pipeline](flowcharts/language_model.png)
+![Data Pipeline](flowcharts/pipeline.png)
 A visualization of the data pipeline used in our system.
 
 ### Language Model
-![Language Model](flowcharts/pipeline.png)
+![Language Model](flowcharts/language_model.png)
 Diagram showing the architecture of the language model.
 
 ### Query Processing
